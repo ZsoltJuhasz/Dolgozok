@@ -37,8 +37,8 @@
                                 <td>{{ $worker->email }}</td>
                                 <td>{{ $worker->departure }}</td>
                                 <td>
-                                    <a class="btn btn-outline-primary" href="/edit-worker/{{ $worker->id }}">Szerkesztés</a>
-                                    <a class="btn btn-outline-danger" href="/delete-worker/{{ $worker->id }}">Törlés</a>
+                                    <a class="btn btn-outline-primary btn-sm" href="/edit-worker/{{ $worker->id }}">Szerkesztés</a>
+                                    <a class="btn btn-outline-danger btn-sm" href="/delete-worker/{{ $worker->id }}">Törlés</a>
                                 </td>
                             </tr>
                             @endforeach
